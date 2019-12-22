@@ -1,37 +1,35 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Friend Finder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
 </head>
-<body>
+<body class="site">
+	<div class="container content">
+		<h1>Friend Finder</h1>
+		<p>Take this survey to find/ match your friend</p>
+		
+		<div class="text-center">
+			<a href="/survey"><button class="btn btn-lg btn-success">Take Survey</button></a>
+		</div>
+	</div>
 
-        <div class="container">
+	<footer>
+		<div class="container">
+			<a href="/api/friends">Friends API</a>
+			<span>|</span>
+			<a href="https://github.com/WyntonD/FriendFinder">GitHub</a>
+		</div>
+	</footer>
 
-                <div class="jumbotron">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                  <h1 class="text-center"><span class="fa fa-fire"></span> Friend Finder</h1>
-                  <hr>
-                  <h2 class="text-center">Answer a few basic questions.</h2>
-                  <br>
-                  <h2> Then find the friend with the greatest compatibility!</h2>
-            
-                  <div class="text-center">
-                    <a href="survey.html"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> Go to Survey</button></a>
-                  </div>
-            
-                </div>
-            
-                <footer class="footer">
-                  <div class="container">
-                    <p><a href="/api/tables">API Friends List</a> | <a href="/api/waitlist">GitHub Repo</a>
-                  </div>
-                </footer>
-            <script src = "../data/friends.js"></script>
-              </div>
-    
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
